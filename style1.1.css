@@ -1,0 +1,30 @@
+.text-dev{
+    color: #98CA3F;
+    background-color: #E6F2C7;
+}
+
+.display-5 {
+    font-size: 2rem;
+    line-height: 1.2;
+}
+
+.years {
+    color: #ffb25b;
+}
+
+.center-separator {
+    display: flex;
+    line-height: 12px;
+    color: #FFB25B;
+    font-size: 12px;
+}
+
+.center-separator::after {
+    content: '';
+    display: inline-block;
+    flex-grow: 1;
+    margin-top: 0.5em;
+    background: #98CA3F;
+    height: 2px;
+    margin-left: 5px;
+}
